@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avinash Bolineni | Data Engineer</title>
+    <!-- Modern Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+    <!-- Background Animation Elements -->
+    <div class="bg-orb orb-1"></div>
+    <div class="bg-orb orb-2"></div>
+
+    <!-- Glassmorphism Navbar -->
+    <nav class="navbar hidden-onload">
+        <a href="#home" class="logo">AB.</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" class="btn-outline">Contact</a>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero hidden-onload">
+            <h3 class="subtitle">Hi, my name is</h3>
+            <h1 class="title glow-text">Avinash Bolineni.</h1>
+            <h2 class="role">I build scalable <span class="gradient-text">Data Architectures.</span></h2>
+            <p class="description">
+                I'm a Data Engineer from Columbus, OH with 5+ years of experience specializing in building robust data pipelines 
+                using AWS, GCP, Python, Spark, dbt, Kafka, and BigQuery.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn-primary">View My Work</a>
+                <a href="#contact" class="btn-secondary">Let's Connect</a>
+            </div>
+        </section>
+
+        <!-- Impact & Achievements Section -->
+        <section id="impact" class="impact section hidden-scroll">
+            <h2 class="section-title">Business Impact</h2>
+            <div class="impact-grid">
+                <div class="impact-card glass-panel">
+                    <h3 class="impact-number">TB+</h3>
+                    <p class="impact-text">Daily Data Processing</p>
+                </div>
+                <div class="impact-card glass-panel">
+                    <h3 class="impact-number">5+</h3>
+                    <p class="impact-text">Years Building Architectures</p>
+                </div>
+                <div class="impact-card glass-panel">
+                    <h3 class="impact-number">99.9%</h3>
+                    <p class="impact-text">Pipeline Reliability</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about section hidden-scroll">
+            <h2 class="section-title">01. About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Avinash, and I enjoy solving complex data challenges. My interest in data engineering started when I realized the immense power behind well-structured, clean data and how it drives modern businesses.</p>
+                    <p>My core focus these days is designing resilient distributed systems, mapping intricate data workflows, and minimizing batch processing times for enterprise-scale platforms.</p>
+                </div>
+                <!-- Dynamic Terminal Animation -->
+                <div class="terminal-wrapper glass-panel">
+                    <div class="terminal-header">
+                        <span class="dot red"></span>
+                        <span class="dot yellow"></span>
+                        <span class="dot green"></span>
+                        <span class="terminal-title">avinash@data-eng: ~</span>
+                    </div>
+                    <div class="terminal-body" id="terminal-body">
+                        <!-- Content injected via JS -->
+                    </div>
+                </div>
+                
+                <!-- GitHub Activity Graph -->
+                <div class="github-activity">
+                    <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--accent-teal); font-family: var(--font-heading); font-size: 1.1rem;">Live GitHub Activity</h3>
+                    <div class="glass-panel" style="padding: 1rem; display: flex; justify-content: center; overflow: hidden;">
+                        <img src="https://ghchart.rshah.org/64ffda/AvinashBolineni" alt="Avinash's Github chart" style="width: 100%; max-width: 800px; filter: hue-rotate(320deg) brightness(1.2);" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills section hidden-scroll">
+            <h2 class="section-title">02. Tech Stack</h2>
+            <div class="skills-grid">
+                <div class="skill-category glass-panel">
+                    <h3>Languages</h3>
+                    <div class="badges">
+                        <span class="badge">Python</span>
+                        <span class="badge">SQL</span>
+                        <span class="badge">Scala</span>
+                        <span class="badge">Java</span>
+                        <span class="badge">Bash</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3>Data Processing & Orchestration</h3>
+                    <div class="badges">
+                        <span class="badge">Apache Spark</span>
+                        <span class="badge">Kafka</span>
+                        <span class="badge">Airflow</span>
+                        <span class="badge">dbt</span>
+                        <span class="badge">Apache Beam</span>
+                        <span class="badge">Dataflow</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3>Databases & Cloud</h3>
+                    <div class="badges">
+                        <span class="badge">AWS (S3, Redshift, EMR)</span>
+                        <span class="badge">GCP (BigQuery, Pub/Sub)</span>
+                        <span class="badge">Snowflake</span>
+                        <span class="badge">PostgreSQL</span>
+                        <span class="badge">Cassandra</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-panel">
+                    <h3>Tools & Infrastructure</h3>
+                    <div class="badges">
+                        <span class="badge">Docker</span>
+                        <span class="badge">Kubernetes</span>
+                        <span class="badge">Terraform</span>
+                        <span class="badge">Git / GitHub Actions</span>
+                        <span class="badge">CI/CD</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications section hidden-scroll">
+            <h2 class="section-title">03. Certifications</h2>
+            <div class="certs-grid">
+                
+                <!-- AWS Data Engineer -->
+                <div class="cert-card glass-panel">
+                    <div class="cert-icon" style="color: #ff9900;">
+                        <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <div>
+                        <h3 class="cert-title">Certified Data Engineer</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                    </div>
+                </div>
+
+                <!-- AWS Developer -->
+                <div class="cert-card glass-panel">
+                    <div class="cert-icon" style="color: #ff9900;">
+                        <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <div>
+                        <h3 class="cert-title">Certified Developer (Associate)</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                    </div>
+                </div>
+
+                <!-- dbt Fundamentals -->
+                <div class="cert-card glass-panel">
+                    <div class="cert-icon" style="color: #FF694B;">
+                        <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <div>
+                        <h3 class="cert-title">dbt Fundamentals</h3>
+                        <p class="cert-issuer">dbt Labs</p>
+                    </div>
+                </div>
+
+                <!-- Databricks Lakehouse Fundamentals -->
+                <div class="cert-card glass-panel">
+                    <div class="cert-icon" style="color: #FF3621;">
+                        <svg viewBox="0 0 24 24" width="48" height="48" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+                    </div>
+                    <div>
+                        <h3 class="cert-title">Lakehouse Fundamentals</h3>
+                        <p class="cert-issuer">Databricks</p>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects section hidden-scroll">
+            <h2 class="section-title">04. Featured Projects</h2>
+            <div class="project-list">
+                
+                <!-- Project 1: GCP Streaming Pipeline -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <p class="project-overline">Real-Time Data Architecture</p>
+                        <h3 class="project-title">gcp-streaming-pipeline</h3>
+                        <p class="project-desc">
+                            Designed a resilient streaming data pipeline on Google Cloud Platform. Handled high-throughput event ingestion and processing, decreasing data latency from hours to sub-minute intervals for downstream analytics.
+                        </p>
+                        <div class="project-tech">
+                            <span>GCP</span><span>Python</span><span>Pub/Sub</span><span>Dataflow</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AvinashBolineni/gcp-streaming-pipeline" target="_blank">View GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: DBT BigQuery Transforms -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <p class="project-overline">Data Modeling & Analytics Base</p>
+                        <h3 class="project-title">dbt-bigquery-transforms</h3>
+                        <p class="project-desc">
+                            Engineered modular, tested data transformations within BigQuery using dbt. Implemented dimensional modeling best practices, improving query performance and standardizing business logic across business intelligence tools.
+                        </p>
+                        <div class="project-tech">
+                            <span>dbt</span><span>BigQuery</span><span>SQL</span><span>Data Modeling</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AvinashBolineni/dbt-bigquery-transforms" target="_blank">View GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: Kafka Spark Streaming -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <p class="project-overline">Distributed Stream Computation</p>
+                        <h3 class="project-title">kafka-spark-streaming</h3>
+                        <p class="project-desc">
+                            Developed an aggressively scalable event-driven architecture using Apache Kafka for message brokering and Apache Spark for complex stream processing. Minimized data bottlenecks while processing continuous telemetry feeds.
+                        </p>
+                        <div class="project-tech">
+                            <span>Apache Spark</span><span>Kafka</span><span>Python</span><span>Streaming</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AvinashBolineni/kafka-spark-streaming" target="_blank">View GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Data Quality Framework -->
+                <div class="project-card glass-panel">
+                    <div class="project-content">
+                        <p class="project-overline">Data Governance & Verification</p>
+                        <h3 class="project-title">data-quality-framework</h3>
+                        <p class="project-desc">
+                            Architected an automated data quality framework using Python to dynamically validate pipeline outputs against expected schemas and anomaly thresholds, preventing "silent failures" in production dashboards.
+                        </p>
+                        <div class="project-tech">
+                            <span>Python</span><span>Data Governance</span><span>Testing</span><span>ETL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/AvinashBolineni/data-quality-framework" target="_blank">View GitHub <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact section hidden-scroll">
+            <p class="contact-overline">05. What's Next?</p>
+            <h2 class="title glow-text">Get In Touch</h2>
+            <p class="contact-desc">
+                I'm currently looking for new opportunities to build scalable data infrastructure. 
+                Whether you have a question, a project idea, or just want to say hi, I'll try my best to get back to you!
+            </p>
+            
+            <form action="https://formspree.io/f/mgonyppe" method="POST" class="contact-form glass-panel">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="John Doe">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="_replyto" required placeholder="john@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Hello Avinash..."></textarea>
+                </div>
+                <button type="submit" class="btn-primary" style="width: 100%;">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built by Avinash Bolineni &copy; 2026</p>
+        <div class="social-links">
+            <a href="https://github.com/AvinashBolineni" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/avinash-bolineni/" target="_blank">LinkedIn</a>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
